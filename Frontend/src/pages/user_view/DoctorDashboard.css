@@ -1,0 +1,119 @@
+/* Container */
+.dashboard-content {
+  background: #f9fafc;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin-top: px;
+}
+
+/* Headings */
+.dashboard-content h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2d3748;
+}
+
+.dashboard-content p {
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Cards */
+.dashboard-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Section headings */
+.dashboard-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a202c;
+}
+
+/* Table */
+.dashboard-card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.dashboard-card th,
+.dashboard-card td {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard-card th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.dashboard-card tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Buttons */
+button {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.bg-blue-500 {
+  background: #3b82f6;
+  color: #fff;
+}
+
+button.bg-green-500 {
+  background: #10b981;
+  color: #fff;
+}
+
+button.bg-red-500 {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* Quick Actions */
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  margin-right: 8px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background: #2563eb;
+}
+
+.btn-secondary {
+  background: #6b7280;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

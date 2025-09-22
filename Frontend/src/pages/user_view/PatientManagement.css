@@ -1,0 +1,51 @@
+/* Custom styles for the PatientManagement component */
+
+/* Main content area padding adjustment */
+.content {
+  padding-left: 5rem !important; /* Adjust left padding for the sidebar */
+  padding-right: 5rem !important; /* Adjust right padding for a balanced look */
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* Custom shadow and border for the card */
+/* Custom shadow and border for the card */
+/* Custom shadow and border for the patient management card */
+.patient-management-card {
+  border: none;
+  border-radius: 0.75rem; /* More rounded corners */
+  max-width: 1500px !important;
+  margin-top: 0px !important;
+  margin-left: 10px;
+}
+
+/* Style for the search input field */
+.form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #dee2e6;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  outline: 0;
+}
+
+/* Table header text color */
+.table-dark thead th {
+  color: #fff;
+}
+
+/* Table row hover effect */
+.table-hover tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+/* Badge styles for different statuses */
+.badge {
+  padding: 0.4em 0.8em;
+  font-weight: 500;
+  border-radius: 1rem; /* Pill-shaped badges */
+}
