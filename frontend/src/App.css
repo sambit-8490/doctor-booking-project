@@ -1,0 +1,27 @@
+/* src/App.css or src/Dashboard.css */
+
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.main-content-area {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  /* Add margin to push content to the right */
+  margin-left: 250px; /* Use the same width as your sidebar */
+}
+
+.main-sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  height: 100vh;
+}
